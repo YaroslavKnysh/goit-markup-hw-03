@@ -123,6 +123,7 @@ ul {
   letter-spacing: 0.06em;
   border-radius: 4px;
   padding: 10px 32px;
+  display: inline-block;
 }
 
 .solutions-format {
@@ -134,10 +135,10 @@ ul {
   color: var(--secondary-text-color);
   font-size: 44px;
   line-height: 1.36;
-  margin: 200px 452px 30px;
-
   text-transform: uppercase;
   letter-spacing: 0.06em;
+  width: 696px;
+  height: 120px;
 }
 
 /* =======================================Наши особенности ========================================*/
