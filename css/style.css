@@ -47,9 +47,12 @@ ul {
   padding-right: 15px;
   margin: auto auto;
 }
-.section {
+/*.section {
   padding-top: 94px;
-  padding-bottom: 94px;
+  padding-bottom: 94px; }*/
+
+.hidden-title {
+  display: none;
 }
 /* =================================Секции Header================================== */
 .logo,
@@ -93,6 +96,12 @@ ul {
 .contacts-link {
   color: var(--text-color);
 }
+.site-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+}
+
 /* ==============================================Footer ===================================*/
 .footer-contacts {
   color: var(--secondary-text-color);
@@ -125,10 +134,16 @@ ul {
   padding: 10px 32px;
   display: inline-block;
 }
-
+.order-button:hover,
+.order-button:focus {
+  background-color: #188ce8;
+}
 .solutions-format {
   background-color: var(--secondary-bg-color);
   text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  margin-bottom: 94px;
 }
 .solutions-title {
   font-weight: 900;
@@ -137,8 +152,7 @@ ul {
   line-height: 1.36;
   text-transform: uppercase;
   letter-spacing: 0.06em;
-  width: 696px;
-  height: 120px;
+  margin-bottom: 30px;
 }
 
 /* =======================================Наши особенности ========================================*/
