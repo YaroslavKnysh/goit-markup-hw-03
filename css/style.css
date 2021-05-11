@@ -97,10 +97,14 @@ ul {
 .contacts-link {
   color: var(--text-color);
 }
+.nav-position,
+.contacts-header,
 .site-nav {
   display: flex;
 }
-
+.contacts-header {
+  justify-content: flex-end;
+}
 /* ==============================================Footer ===================================*/
 .footer-contacts {
   color: var(--secondary-text-color);
