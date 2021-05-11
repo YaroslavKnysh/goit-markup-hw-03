@@ -164,7 +164,9 @@ ul {
   text-transform: uppercase;
   margin-bottom: 10px;
 }
-
+.features-list-item {
+  width: 270px;
+}
 .features-list-description {
   line-height: 1.71;
   color: var(--text-color);
