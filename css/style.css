@@ -48,7 +48,8 @@ ul {
   margin: auto auto;
 }
 .section {
-  margin-bottom: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .hidden-title {
