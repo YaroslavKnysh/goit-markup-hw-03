@@ -99,12 +99,8 @@ ul {
 }
 .site-nav {
   display: flex;
-  flex-direction: row;
-  justify-content: left;
 }
-.top-header-portfolio {
-  margin-bottom: 94px;
-}
+
 /* ==============================================Footer ===================================*/
 .footer-contacts {
   color: var(--secondary-text-color);
@@ -116,8 +112,6 @@ ul {
 }
 .page-footer {
   background-color: var(--secondary-bg-color);
-
-  height: 252px;
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -148,13 +142,11 @@ ul {
 .solutions-format {
   background-color: var(--secondary-bg-color);
   text-align: center;
+}
+.solutions {
   padding-top: 200px;
   padding-bottom: 200px;
-  margin-bottom: 94px;
-
-  height: 600px;
 }
-
 .solutions-title {
   font-weight: 900;
   color: var(--secondary-text-color);
@@ -170,6 +162,7 @@ ul {
   font-size: inherit;
   line-height: 1.14;
   text-transform: uppercase;
+  margin-bottom: 10px;
 }
 
 .features-list-description {
@@ -183,14 +176,20 @@ ul {
   text-align: center;
   margin-bottom: 50px;
 }
-
+.we-doing {
+  padding-top: 0;
+  padding-bottom: 188px;
+}
 /*============================================ Наша команда============================================= */
 .our-team-title {
   font-size: 36px;
   text-align: center;
   margin-bottom: 50px;
 }
-
+.our-team {
+  padding-top: 0;
+  padding-bottom: 94px;
+}
 .team-person {
   font-weight: 500;
   font-size: 16px;
