@@ -169,7 +169,9 @@ ul {
   line-height: 1.71;
   color: var(--text-color);
 }
-
+.our-features-list {
+  display: flex;
+}
 /* =======================================Чем мы занимаемся======================================= */
 .we-doing-title {
   font-size: 36px;
@@ -243,4 +245,7 @@ ul {
   font-size: 16px;
   line-height: 1.87;
   color: var(--text-color);
+}
+.portfolio-projects {
+  display: block;
 }
