@@ -69,9 +69,8 @@ ul {
 }
 .logo {
   color: var(--logo);
-}
-.logo-footer {
-  color: var(--secondary-text-color);
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 .site-nav-link.current {
@@ -97,14 +96,14 @@ ul {
 .contacts-link {
   color: var(--text-color);
 }
-.nav-position,
-.contacts-header,
+
+/*.contacts-header,
 .site-nav {
   display: flex;
 }
 .contacts-header {
   justify-content: flex-end;
-}
+} */
 /* ==============================================Footer ===================================*/
 .footer-contacts {
   color: var(--secondary-text-color);
@@ -119,7 +118,12 @@ ul {
   padding-top: 60px;
   padding-bottom: 60px;
 }
-
+.logo-footer {
+  color: var(--secondary-text-color);
+}
+.adress {
+  margin-top: 20px;
+}
 /* ========================================Hero============================================= */
 
 .order-button {
@@ -171,6 +175,9 @@ ul {
 .features-list-item {
   width: 270px;
 }
+.features-list-item:not(:last-child) {
+  margin-right: 30px;
+}
 .features-list-description {
   line-height: 1.71;
   color: var(--text-color);
@@ -190,6 +197,9 @@ ul {
 .we-doing-examples {
   display: flex;
 }
+.we-doing-item:not(:last-child) {
+  margin-right: 30px;
+}
 /*============================================ Наша команда============================================= */
 .our-team-title {
   font-size: 36px;
@@ -203,12 +213,21 @@ ul {
   font-weight: 500;
   font-size: 16px;
   text-align: center;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  padding-left: 60px;
+  padding-right: 60px;
 }
 .team-position {
   font-size: 16px;
   text-align: center;
+  padding-bottom: 30px;
+  padding-left: 70px;
+  padding-right: 70px;
 }
-
+.our-team-item:not(:last-child) {
+  margin-right: 30px;
+}
 /* ===========================================PORTFOLIO PAGE=========================================== */
 
 /* ==========================================Фильтр========================================== */
@@ -233,6 +252,9 @@ ul {
   flex-direction: row;
   justify-content: center;
   margin-bottom: 34px;
+}
+.filter-buttons-item:not(:last-child) {
+  margin-right: 8px;
 }
 .filter-buttons-link:hover,
 .filter-buttons-link:focus {
