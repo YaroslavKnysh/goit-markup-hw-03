@@ -141,7 +141,7 @@ ul {
   padding-top: 60px;
   padding-bottom: 60px;
 }
-.logo-footer {
+.logo.footer {
   color: var(--secondary-text-color);
 }
 .adress {
