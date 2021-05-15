@@ -112,7 +112,7 @@ ul {
   display: flex;
   align-items: center;
 }
-.site-nav-item {
+.site-nav-link {
   padding-top: 32px;
   padding-bottom: 32px;
 }
@@ -120,7 +120,7 @@ ul {
   display: flex;
   align-items: center;
 }
-.contacts-header-item {
+.contacts-link {
   padding-top: 32px;
   padding-bottom: 32px;
 }
